@@ -1,0 +1,416 @@
+
+body, html {
+	padding:0;
+	margin:0;
+   background-color: black;
+    
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+a , a:hover{
+	text-decoration : none;
+}
+
+.container-fluid {
+	padding:0;
+}
+
+
+.separator {
+	height:3px;
+	width:50%;
+	border:none;
+	box-shadow:none;
+	background-color:yellow;
+}
+
+.header  {
+    position: fixed;
+    margin-left: 450px;
+	background-color: black;
+	height: 60px;
+  width: 650px;
+	line-height: 70px;
+    z-index: 200;
+}
+
+.menu {
+	float : center;
+    margin-left: 30px;
+   
+}
+
+.menu a {
+	color:grey;
+	margin-right:20px;
+}
+
+.menu a:hover{
+	color:yellow;
+}
+
+.banner {
+
+	width:100%;
+	max-width:100%;
+}
+
+.ban {
+    
+    width:100%;
+	max-width:100%;
+	position:absolute;
+}
+
+.ban img {
+   
+    position: relative;
+    margin-top: 80px;
+
+}
+
+.inner-banner {
+    font-family: Booklet Cordel;
+	margin-left: 50px;
+	position:absolute;
+	top:10%;
+	width:100%
+}
+
+.inner-banner h1 {
+   
+    margin-bottom: 80px;
+   z-index: 100;
+	color : white;
+	text-shadow:1px 1px 20px #000000;
+}
+.inner-banner h2 {
+   
+    font-size: 45px;
+    margin-bottom: 70px;
+   z-index: 100;
+	color : white;
+	text-shadow:1px 1px 20px #000000;
+}
+.logowolf {
+    width: 100px;
+    height: 100px;
+    background:url("wolf.png");
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    left:400px;
+    z-index: 5000;
+}
+.logowolf:hover{
+    background-image:url("wolfhover.png");
+    background-size: cover;
+}
+.social{
+    position: absolute;
+    text-align: center;
+    margin-top: -70px;
+    margin-left: 620px;
+    color:yellow;
+    font-family: Booklet Cordel;
+   
+}
+div.facebook{
+     width: 40px;
+    height: 40px;
+    background: url("facebook.png");
+    background-size: cover;
+    position:relative;
+    left:600px;
+    margin-top: 100px;
+    z-index: 3000;
+}
+div.facebook:hover{
+    background: url("facebookyellow.png");
+    background-size: cover;
+}
+div.youtube{
+     width: 40px;
+    height: 40px;
+    background: url("youtube.png");
+    background-size: cover;
+    position: relative;
+    left:660px;
+    margin-top: -42px;
+    z-index: 3000;
+    
+}
+div.youtube:hover{
+    background: url("youtubeyellow.png");
+    background-size: cover;
+}
+div.gmail{
+     width: 40px;
+    height: 40px;
+    background: url("gmail.png");
+    background-size: cover;
+    position: relative;
+    left:730px;
+    margin-top: -42px;
+    z-index: 3000;
+    
+}
+div.gmail:hover{
+    background: url("gmailyellow.png");
+    background-size: cover;
+}
+div.instgram{
+     width: 40px;
+    height: 40px;
+    background: url("instgram.png");
+    background-size: cover;
+    position: relative;
+    left:800px;
+    margin-top: -42px;
+    z-index: 3000;
+    
+}
+div.instgram:hover{
+    background: url("instagram-logo%20(1).png");
+    background-size: cover;
+}
+div.twitter{
+     width: 40px;
+    height: 40px;
+    background: url("twitter.png");
+    background-size: cover;
+    position: relative;
+    left:860px;
+    margin-top: -42px;
+    z-index: 3000;
+}
+div.twitter:hover{
+    background: url("twitteryellow.png");
+    background-size: cover;
+}
+.form-group2{
+    font-family: Booklet Cordel;
+    z-index: 100;
+    color:white;
+    width:200px;
+    margin-left: 50px;
+	position: absolute;
+	top:40%;
+	
+}
+.form-group3{
+    font-family: Booklet Cordel;
+    z-index: 100;
+    color:white;
+    width:200px;
+	position: absolute;
+	top:40%;
+    margin-left: 300px;
+	
+}
+.singin{
+   font-family:Booklet Cordel; 
+    z-index: 100;
+    color:white;
+    font-size: 20px;
+    position: absolute;
+	top:35%;
+    margin-left: 100px;
+	
+}
+.singinsite{
+    z-index: 100;
+    position: absolute;
+    top:50%;
+    margin-left: 230px;
+}
+.studentregister h1{
+    font-family: Booklet Cordel;
+    color:grey;
+    margin-top: 500px;
+    margin-left: 10px;
+}
+.studentregister h1:hover{
+    color:yellow;
+}
+.evaluation h1{
+    font-family: Booklet Cordel;
+    color:grey;
+   margin-top: -50px;
+    margin-left: 340px;
+}
+.evaluation h1:hover{
+    color:yellow;
+}
+.studentlist h1{
+    font-family: Booklet Cordel;
+    color:grey;
+   margin-top: -50px;
+    margin-left: 670px;
+}
+.studentlist h1:hover{
+    color:yellow;
+}
+.absencetable h1{
+    font-family: Booklet Cordel;
+    color:grey;
+   margin-top: -50px;
+    margin-left: 880px;
+}
+.absencetable h1:hover{
+    color:yellow;
+}
+.marks h1{
+    font-family: Booklet Cordel;
+    color:grey;
+   margin-top: -50px;
+    margin-left: 1200px;
+    
+}
+.marks h1:hover{
+    color:yellow;
+}
+div.reg{
+    border-radius: 10%;
+     width: 200px;
+    height: 200px;
+    background: url("register.jpg");
+    background-size: cover;
+    position:relative;
+    left:100px;
+    margin-top: 20px;
+    z-index: 3000;
+}
+div.reg:hover{
+    border-radius: 10%;
+    background: url("registerhover.jpg");
+    background-size: cover;
+}
+div.enternotes{
+    border-radius: 10%;
+     width: 200px;
+    height: 200px;
+    background: url("note.jpg");
+    background-size: cover;
+    position:relative;
+    margin-left:460px;
+    margin-top: -200px;
+    z-index: 3000;
+}
+div.enternotes:hover{
+    border-radius: 10%;
+    background: url("notehover.jpg");
+    background-size: cover;
+}
+div.showlist{
+    border-radius: 10%;
+     width: 200px;
+    height: 200px;
+    background: url("studentlist.jpg");
+    background-size: cover;
+    position:relative;
+    margin-left:725px;
+    margin-top: -200px;
+    z-index: 3000;
+}
+div.showlist:hover{
+    border-radius: 10%;
+    background: url("studentlisthover.jpg");
+    background-size: cover;
+}
+div.studentsmarks{
+    border-radius: 10%;
+     width: 200px;
+    height: 200px;
+    background: url("absencehover.jpg");
+    background-size: cover;
+    position:relative;
+    margin-left:1220px;
+    margin-top: -200px;
+    z-index: 3000;
+}
+div.studentsmarks:hover{
+    border-radius: 10%;
+    background: url("absence.jpg");
+    background-size: cover;
+}
+div.absencelist{
+    border-radius: 10%;
+     width: 200px;
+    height: 200px;
+    background: url("home.jpg");
+    background-size: cover;
+    position:relative;
+    margin-left:960px;
+    margin-top: -200px;
+    z-index: 3000;
+}
+div.absencelist:hover{
+    border-radius: 10%;
+    background: url("homehover.jpg");
+    background-size: cover;
+}
+div.formulaire{
+    z-index: 1000;
+    margin-top: 600px;
+    margin-left: 400px;
+    
+}
+.feedback-input{
+      color:yellow;
+  font-family: booklet cordel;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 20px;
+  width:70%;
+  box-sizing: border-box;
+  outline:0;
+}
+feedback-input:focus { border:2px solid #CC4949; }
+[type="submit"] {
+  font-family:  booklet cordel;
+  width: 70%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+.wide{
+    font-family: lavanderia;
+    color:yellow;
+    margin-left: 120px;
+}
+.wide:hover{
+    color:grey;
+}
+.subject{
+    font-family:  booklet cordel;
+    color:yellow;
+    font-size: 20px;
+}
+.socialy{
+     position: absolute;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 580px;
+    color:yellow;
+    font-family: Booklet Cordel;
+   
+}

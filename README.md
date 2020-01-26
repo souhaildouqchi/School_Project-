@@ -3,4 +3,5 @@ Design and realization of a Web application for absence management,timetables, c
 HTML , CSS , BOOTSTRAP , SQL.
 
 ![](img/Capture1.PNG)
+
 ![](img/Capture2.PNG)
